@@ -25,7 +25,7 @@
     <strong>Project:</strong>
     <%= @project.work %>
   </p>
-  <%= image_tag(@project.work_url(:thumb).to_s) %>
+  <%= image_tag(@project.work_url.to_s) %>
 </div>
 
 <div>
@@ -33,7 +33,7 @@
     <strong>Cover:</strong>
     <%= @project.cover %>
   </p>
-  <%= image_tag(@project.workcover_url(:thumb).to_s) %>
+  <%= image_tag(@project.workcover_url.to_s) %>
 </div>
 
 
