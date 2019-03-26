@@ -296,10 +296,6 @@ GEM
 PLATFORMS
   java
   ruby
-  x64-mingw32
-  x86-mingw32
-  x86-mswin32
-
 DEPENDENCIES
   aws-sdk-s3
   bootsnap (>= 1.1.0)
