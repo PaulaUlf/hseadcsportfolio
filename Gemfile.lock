@@ -270,10 +270,7 @@ GEM
 
 PLATFORMS
   ruby
-<<<<<<< HEAD
-=======
 
->>>>>>> parent of 64e358a... Update Gemfile.lock
 DEPENDENCIES
   aws-sdk-s3
   bootsnap (>= 1.1.0)
